@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    color: #315184;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#container-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-ctt {
+    margin-bottom: 40px;
+}

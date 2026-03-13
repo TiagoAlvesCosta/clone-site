@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+.cases-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 40vh;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #304F81;
+}
+
+.cases-titulo {
+   background-color: #A5CE46;
+   padding: 10px 20px 10px 20px;
+   width: 100px;
+   border-radius: 40px;
+   margin: auto;
+   color: white;
+   font-weight: 800;
+}
+
+.cases-top h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+/* padrao dos blocos da cases */
+.imagem-fundo img {
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto 30px auto;
+}
+
+.txt {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-mart img, .card-santa img, .card-taua img, .card-040 img, .card-otica img, .card-mittal img {
+    display: block;
+    margin: 0px auto 15px auto;
+}
+
+.card-mart h3, .card-santa h3, .card-taua h3, .card-040 h3, .card-otica h3, .card-mittal h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.card-container p {
+    color: white;
+    text-align: center;
+}
+
+/* Mart Minas */
+
+#mart-minas h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #62C893;
+}
+
+
+.card-mart {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #05A551;
+    padding: 20px;
+}
+
+/* Santa-Casa */
+
+#santa-casa h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #00365F;
+}
+
+.card-santa {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #00365F;
+    padding: 20px;
+}
+
+/* Grupo Taua */
+
+#grupo-taua h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #015A3B;
+}
+
+.card-taua {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #015A3B;
+    padding: 20px;
+}
+
+/* 040 - Cervejaria */
+
+#cervejaria h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+.card-040 {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+}
+
+/* otica popular */
+
+#otica h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #0070AD;
+}
+
+.card-otica {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #0070AD;
+    padding: 20px;
+}
+
+/* Arcelor Mittal */
+
+#mittal h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #BC2501;
+}
+
+.card-mittal {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #BC2501;
+    padding: 20px;
+}
